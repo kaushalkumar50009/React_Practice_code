@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid_main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mapping_box {
+  border: 2px solid rebeccapurple;
+  margin: 10px 20px;
+  box-sizing: border-box;
+}
